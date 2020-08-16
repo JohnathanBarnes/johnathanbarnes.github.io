@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  /* vertical-align: baseline; */
+}
+
+body{
+  background:#f5f5f5;
+}
+
+.mainContent{
+  background:#000000;
+  color: #ffffff;
+  font-family:'Lucida Console', sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:.5rem;
+  width:100%;
+}  
+
+
+  a:link{
+    color:#ffffff;
+  }
+  a:visited{
+    color:#ffffff;
+  }
+  a:active{
+    color:#ffffff;
+}
+
+#one{
+  margin-left:7rem;
+  margin-right:3rem;
+  font-size:2rem;  
+}
+
+.buttonBackground{
+  background:#000000;
+  color:white;
+  font-size: 18px;
+}
+
+#buttonProjects{
+  border-radius:.4rem;
+  width:5rem;
+  height:2rem;
+  border:none;
+  color:#f8fae4;
+  margin:.2rem;
+  background:#000000;
+  outline:none;
+}
+
+#buttonProjects:hover{
+  background:#ffffff;
+  color:#000000;
+}
+
+#buttonProjects:active{
+ 
+}
+
+#buttonAbout{
+  color:#f8fae4;
+  border-radius:.4rem;
+  width:5rem;
+  height:2rem;
+  margin:.2rem;
+  background:#000000;
+  border:none;
+  outline:none;
+}
+
+#buttonAbout:hover{
+  background:#ffffff;
+  color:#000000;
+}
+
+#buttonAbout:active{
+ 
+}
+
+#buttonContact{
+  color:#f8fae4;
+  border-radius:.4rem;
+  width:5rem;
+  height:2rem;
+  margin:.2rem;
+  background:#000000;
+  border:none;
+  outline:none;
+}
+
+#buttonContact:hover{
+  background:#ffffff;
+  color:#000000;
+  
+}
+
+#buttonContact:active{
+  
+}
+
+#myPhoto{
+  height:6rem;
+  width:6rem;
+  border-radius:15%;
+  margin-left:4rem;
+}
+
+#dogLeft{
+  height:25rem;
+  width:25rem;
+  margin:.2rem;
+}
+
+#dogRight{
+  height:25rem;
+  width:25rem;
+  margin:.2rem;
+}
+
+.flexContent{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin-right:4rem;
+  margin-top:.2rem;
+  padding:.2rem; 
+}
+
+.flexText{
+  display:flex;
+}
+
+.leftFlexChild{
+  flex:1;
+} 
+
+#myBlurb{
+  display:flex;
+  margin-right:4rem;
+}
+
+#bottomPhoto{
+  width:100%;
+  height:20rem;
+  filter:blur(1px);
+  filter:brightness(90%);
+}
+
+
+
+@media only screen and (max-width: 560px) {
+  .mainContent{
+    background:#ffffff;
+    color: #ffffff;
+    font-family:'Lucida Console', sans-serif;
+  }
+
+  .buttonBackground{
+    background:#000000;
+  }
+
+  #myBlurb{
+    display:flex;
+    margin-right:4rem;
+  }
+
+  #myPhoto{
+    height:6rem;
+    width:6rem;
+    border-radius:15%;
+    margin-left:4rem;
+  }
+
+  #dogLeft{
+    height:10rem;
+    width:10rem;
+    margin:.2rem;
+  }
+  
+  #dogRight{
+    height:10rem;
+    width:10rem;
+    margin:.2rem;
+  }
+
+  #bottomPhoto{
+    width:100%;
+    height:15rem;
+    filter:blur(1px);
+    filter:brightness(90%);
+}
